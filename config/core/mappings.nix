@@ -2,7 +2,7 @@
 let
   inherit (mkKey) mkKeymap mkKeymap' mkKeymapWithOpts;
   insert = [
-    (mkKeymap "i" "jk" "<esc>" "Normal Mode")
+    (mkKeymap "i" "jj" "<esc>" "Normal Mode")
     (mkKeymap "i" "<c-s>" "<esc>:w<cr>" "Save file")
     (mkKeymap "i" "<a-j>" "<esc>:m .+1<cr>==gi" "Move Line Down")
     (mkKeymap "i" "<a-k>" "<esc>:m .-2<cr>==gi" "Move Line Up")
